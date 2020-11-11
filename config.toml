@@ -1,3 +1,104 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.fathercashmere.com/"
+languageCode = "en-AU"
+title = "Father Cashmere - DJ and Party Planner"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+# Metadata
+[params]
+  author = "N. Harrison Ripps"
+  description = "A guy with a lot of hobbies."
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Father Cashmere"
+  description = "<p>Planning kick-ass parties since 1993.<br />DJing them since 2005.</p>"
+
+# Navigation section
+[params.nav]
+  mission = "Live Stream"
+  services = "Services"
+  team = "About Me"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/DJing.jpg"
+    [[params.mission.images.list]]
+      img = "images/DJ6.jpg"
+    [[params.mission.images.list]]
+      img = "images/DJ7.jpg"
+    [[params.mission.images.list]]
+      img = "images/DJ8.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "livestream"
+    title = "Live Streaming"
+    subtitle = "Since the beginning of the pandemic, I've been broadcasting the Quarantine Dance Mix every Friday night."
+    description = "<p>You can listen in on my Friday night sets right here, 8pm US Eastern Time (GMT-4). It's typically a mix of high energy dance music and hip-hop. Content warning! I use the uncensored versions of most tracks for my Friday night sets!</p><iframe src='https://www.cue.live/player/father.cashmere' width='380px' height='590px'></iframe>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "social"
+    title = "Social Media"
+    subtitle = "Follow me on Instagram or Twitter to get the latest updates on my live stream schedule!"
+    description = "<p>Instagram: <a href='https://www.instagram.com/fathercashmere/'>@fathercashmere</a></p><p>Twitter: <a href='https://twitter.com/fathercashmere'>@fathercashmere</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Plan Dance Party, Throw Dance Party."
+  description = "COVID-19 is a downer, but it won't be here forver. When we can party again, consider me when you start thinking about:"
+
+  [[params.services.item]]
+    icon = "icon-music-tone-alt"
+    title = "DJing"
+    description = "Cocktail, Dinner, and Dance music for celebrations and fun gatherings. I can put together a set for most genres."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Party Planning"
+    description = "Backyard celebration? Ornate, catered fancy-dress party? Recreating the casino from a Bond movie? I can help!"
+
+  [[params.services.item]]
+    icon = "icon-like"
+    title = "Bartending"
+    description = "Need some signature cocktails for that big event? I can help you pick something perfect--from modern greats back to prohibition-era classics."
+
+# Team section
+[params.team]
+  enable = true
+  title = "About Me"
+  description = "<p><img src='images/father_cashmere.jpg' /></p><p>I started DJing parties back in the early 2000s. No special gear; just putting together set lists, reading the room, and picking the right tracks. A few years ago I finally got my first DJ controller, and the rest is history. Now, during the global pandemic, I've taken it to the next level -- I do a weekly DJ set every Friday, and through that effort I've been cultivating a huge catalog of dance sets for every occasion.</p><p>My party planning chops go back even further. I started doing major event planning for my college back in the 90s and have had a hand in putting together some pretty great events for all budgets ever since. Check out the AsciiTeam site for info on how to contact me for services!</p>"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "I'm not booking any events during the pandemic, but happy to talk about your post COVID-19 party plans!"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>All content copyright &copy; 2020 N. Harrison Ripps except where noted.<br />Page template: &copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a><br />Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  twitter = "https://twitter.com/fathercashmere"
+  instagram = "https://www.instagram.com/fathercashmere/"
