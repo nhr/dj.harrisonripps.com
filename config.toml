@@ -48,14 +48,14 @@ unsafe= true
     name = "livestream"
     title = "Live Streaming"
     subtitle = "Since the beginning of the pandemic, I've been broadcasting the Quarantine Dance Mix every Friday night."
-    description = "<p>You can listen in on my Friday night sets right here, 8pm US Eastern Time (GMT-4). It's typically a mix of high energy dance music and hip-hop. Content warning! I use the uncensored versions of most tracks for my Friday night sets!</p><iframe src='https://www.cue.live/player/father.cashmere' width='380px' height='590px'></iframe>"
+    description = "<p>You can listen in on my Friday night sets on <a href='https://www.mixcloud.com/fathercashmere/'>Mixcloud</a>, 8pm US Eastern Time (GMT-4). It's typically a mix of high energy dance music and hip-hop. Content warning! I use the uncensored versions of most tracks for my Friday night sets!</p><iframe width='200' height='250' src='https://www.mixcloud.com/widget/follow/?dark=1&u=%2Ffathercashmere%2F' frameborder='0' ></iframe>"
 
   [[params.mission.item]]
     weight = 2
     name = "social"
     title = "Social Media"
-    subtitle = "Follow me on Instagram or Twitter to get the latest updates on my live stream schedule!"
-    description = "<p>Instagram: <a href='https://www.instagram.com/fathercashmere/'>@fathercashmere</a></p><p>Twitter: <a href='https://twitter.com/fathercashmere'>@fathercashmere</a></p>"
+    subtitle = "Follow me on Instagram, Facebook, or Twitter to get the latest updates on my live stream schedule!"
+    description = "<p>Instagram: <a href='https://www.instagram.com/fathercashmere/'>@fathercashmere</a><br />Facebook: <a href='https://www.facebook.com/fathercashmere'>@fathercashmere</a><br />Twitter: <a href='https://twitter.com/fathercashmere'>@fathercashmere</a></p>"
 
 # Services section
 [params.services]
