@@ -82,7 +82,7 @@ unsafe= true
 [params.team]
   enable = true
   title = "About Me"
-  description = "<p><img src='images/bio_pic.jpg' /></p><p>I started DJing parties back in the early 2000s. No special gear; just putting together set lists, reading the room, and picking the right tracks. A few years ago I finally got my first DJ controller, and the rest is history. Now, during the global pandemic, I've taken it to the next level -- I do a weekly DJ set every Friday, and through that effort I've been cultivating a huge catalog of dance sets for every occasion.</p><p>My party planning chops go back even further. I started doing major event planning for my college back in the 90s and have had a hand in putting together some pretty great events for all budgets ever since. Check out the AsciiTeam site for info on how to contact me for services!</p>"
+  description = "<p><img src='images/bio_pic.jpg' /></p><p>I started DJing parties back in the early 2000s. No special gear; just putting together set lists, reading the room, and picking the right tracks. A few years ago I finally got my first DJ controller, and the rest is history. During the global pandemic, I took it to the next level -- I did a weekly DJ set every Friday, the 'Quarantine Dance Mix', and through that effort I cultivated a huge catalog of dance sets for every occasion. These days I still livestream monthly to keep building my skills.</p><p>My party planning chops go back even further. I started doing major event planning for my college back in the 90s and have had a hand in putting together some pretty great events for all budgets ever since. Check out the AsciiTeam site for info on how to contact me for services!</p>"
 
 # Contact section
 [params.contact]
@@ -99,6 +99,6 @@ unsafe= true
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>All content copyright &copy; 2020 N. Harrison Ripps except where noted.<br />Page template: &copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a><br />Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  note = "<p><small>All content copyright &copy; 2020-2021 N. Harrison Ripps except where noted.<br />Page template: &copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a><br />Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
   twitter = "https://twitter.com/djharrisonripps"
   instagram = "https://www.instagram.com/djharrisonripps/"
