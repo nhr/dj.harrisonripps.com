@@ -47,8 +47,8 @@ unsafe= true
     weight = 1
     name = "livestream"
     title = "Live Streaming"
-    subtitle = "Since the beginning of the pandemic, I've been broadcasting the Quarantine Dance Mix every Friday night."
-    description = "<p>You can listen in on my Friday night sets on <a href='https://www.mixcloud.com/djharrisonripps/'>Mixcloud</a>, 8pm US Eastern Time (GMT-4). It's typically a mix of high energy dance music and hip-hop. Content warning! I use the uncensored versions of most tracks for my Friday night sets!</p><iframe width='200' height='250' src='https://www.mixcloud.com/widget/follow/?dark=1&u=%2Fdjharrisonripps%2F' frameborder='0' ></iframe>"
+    subtitle = "Totally Normal Dance Mix airs on the First Friday of each month."
+    description = "<p>You can listen in on my monthly sets at <a href='https://www.mixcloud.com/djharrisonripps/'>Mixcloud</a>, on the first Friday of each month, 8pm US Eastern Time (GMT-4). It's typically a mix of high energy dance music and hip-hop. Content warning! I use the uncensored versions of most tracks for my livestreams!</p><iframe width='200' height='250' src='https://www.mixcloud.com/widget/follow/?dark=1&u=%2Fdjharrisonripps%2F' frameborder='0' ></iframe>"
 
   [[params.mission.item]]
     weight = 2
